@@ -3,55 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy</title>
+    <title>Privacy Policy — Solar Day</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            padding: 20px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        h1, h2, h3 {
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
             color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 40px;
         }
         section {
-            background: #fff;
-            border-radius: 5px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+        }
+        section h2 {
+            color: #667eea;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        footer h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <section>
-        <h1>Privacy Policy</h1>
-        <p>Effective Date: [Effective Date Here]</p>
-        <p>Your privacy is important to us. This privacy policy outlines how we collect, use, and protect your information.</p>
-    </section>
-    <section>
-        <h2>Information We Collect</h2>
-        <p>We may collect the following types of information:</p>
-        <ul>
-            <li>Personal Information: such as name, email address, etc.</li>
-            <li>Usage Data: information on how you use our website.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>How We Use Your Information</h2>
-        <p>Your information may be used for the following purposes:</p>
-        <ul>
-            <li>To improve our website and services.</li>
-            <li>To communicate with you.</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Data Protection</h2>
-        <p>We take the security of your information seriously and implement various security measures to protect it.</p>
-    </section>
-    <section>
-        <h2>Contact Us</h2>
-        <p>If you have any questions about this privacy policy, please contact us at [Contact Information Here].</p>
-    </section>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy</h1>
+            <p>Solar Day — Effective Date: 23 February 2026</p>
+        </header>
+        
+        <div class="content">
+            <section>
+                <h2>About Solar Day</h2>
+                <p>Solar Day is developed by Sparrow Hill. We are committed to building tools that respect your privacy.</p>
+            </section>
+
+            <section>
+                <h2>1. Data Collection</h2>
+                <p>Solar Day does not collect, store, sell, or share personal data.</p>
+                <p>We do not require accounts, sign-ups, or user profiles.</p>
+                <p>We do not use analytics, advertising SDKs, or third-party tracking tools.</p>
+            </section>
+
+            <section>
+                <h2>2. Location Data</h2>
+                <p>If you choose to use GPS, your device provides location data solely for calculating solar position and daylight information.</p>
+                <p>Location data is processed locally on your device and is not transmitted to Sparrow Hill.</p>
+                <p>You may also manually enter any location in the world without using GPS.</p>
+            </section>
+
+            <section>
+                <h2>3. Network Usage</h2>
+                <p>Core solar calculations run entirely on your device.</p>
+                <p>If you use SolarDay Pro, the app retrieves cloud cover data from a public weather service to provide short-term atmospheric context. This request includes latitude and longitude only, and no personal identifiers.</p>
+                <p>Solar Day does not maintain servers and does not store user activity.</p>
+            </section>
+
+            <section>
+                <h2>4. Payments</h2>
+                <p>SolarDay Pro is offered as a one-time purchase.</p>
+                <p>All payments are processed securely by Google Play. Solar Day does not receive or store payment information.</p>
+            </section>
+
+            <section>
+                <h2>5. Children's Privacy</h2>
+                <p>Solar Day does not knowingly collect personal information from children.</p>
+            </section>
+
+            <section>
+                <h2>6. Changes</h2>
+                <p>This policy may be updated if functionality changes. Updates will be reflected here.</p>
+            </section>
+        </div>
+
+        <footer>
+            <h3>Contact</h3>
+            <p>For questions, contact:</p>
+            <p><a href="mailto:bemymagdalena@gmail.com">bemymagdalena@gmail.com</a></p>
+        </footer>
+    </div>
 </body>
 </html>
